@@ -53,7 +53,7 @@
         <br>
         <br>
         <blockquote class="blockquote">
-            <h1 class="display-1">Success comes with success</h1>
+            <h1 class="display-1">Success comes with <span class="auto-type text-primary"></span></h1>
             <footer class="blockquote-footer"><i>Dimidrosh (a.k.a. Me)</i></footer>
         </blockquote>
         <br>
@@ -61,11 +61,20 @@
         <br>
     </div>
     </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["hard work", "success", "self-confidence", "new opportunities", "learning hard"],
+            typeSpeed: 125,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
     <section class="bg-light" id="about">
         <div class="container">
             <br>
             <h1 class="text-center display-3 p-5"><b>About me</b></h1>
-            <div class="row align-items-center justify-content-betweenЫ">
+            <div class="row align-items-center justify-content-between">
                 <div class="col-md d-flex">
                     <h2 class="">
                     I am a 15 y/o Moscow student. Currently learning Python, PyQT, Django framework (Maybe later I will rewrite this website using Django). Studying in Yandex Academy's Lyceum, graduated 
